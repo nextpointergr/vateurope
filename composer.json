@@ -1,5 +1,5 @@
 {
-  "name": "nextpointer/vat-europe",
+  "name": "nextpointer/vateurope",
   "description": "VIES VAT Validation Service for Laravel",
   "type": "library",
   "license": "MIT",
