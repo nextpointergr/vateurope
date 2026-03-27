@@ -1,0 +1,32 @@
+{
+  "name": "nextpointer/vat-europe",
+  "description": "VIES VAT Validation Service for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NextPointer",
+      "email": "info@nextpointer.gr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "NextPointer\\VatEurope\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NextPointer\\VatEurope\\VatEuropeServiceProvider"
+      ],
+      "aliases": {
+        "VatEurope": "NextPointer\\VatEurope\\Facades\\VatEurope"
+      }
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+    "ext-soap": "*"
+  }
+}
